@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Home page for the WDD 231 Web Frontend Development course." />
+  <meta name="author" content="Your Name" />
+  <title>WDD 231 - Home</title>
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/small.css" />
+  <link rel="stylesheet" href="styles/larger.css" />
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/your-photo.jpg" alt="Your Name">
+    <span>Your Name</span>
+  </header>
+
+  <nav>
+    <button id="menu">&#9776;</button>
+    <ul class="navigation">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#">Chamber</a></li>
+      <li><a href="#">Final</a></li>
+      <li><a href="https://github.com/yourgithubusername">GitHub Profile</a></li>
+      <li><a href="https://linkedin.com/in/your-profile">LinkedIn</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Home</h1>
+    <section>
+      <h2>About</h2>
+      <p>Brief description about you.</p>
+    </section>
+    <section>
+      <h2>Courses</h2>
+      <div class="course-buttons">
+        <button id="all">All Courses</button>
+        <button id="wdd">WDD Courses</button>
+        <button id="cse">CSE Courses</button>
+      </div>
+      <div id="courses"></div>
+      <p>Total Credits: <span id="total-credits">0</span></p>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p>Email or other contact information.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Your Name, Your State/Country</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
