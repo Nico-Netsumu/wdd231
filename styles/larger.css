@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+  nav button {
+    display: none;
+  }
+
+  .navigation {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+  #courses {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
