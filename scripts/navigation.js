@@ -1,12 +1,14 @@
 // scripts/navigation.js
 
 document.addEventListener("DOMContentLoaded", () => {
-  const menuButton = document.getElementById("menu");
-  const navigation = document.querySelector(".navigation");
+  const menuButton = document.querySelector("#menu-button");
+  const navMenu = document.querySelector(".nav-menu");
 
   menuButton.addEventListener("click", () => {
-    navigation.classList.toggle("open");
+    navMenu.classList.toggle("open");
+    menuButton.classList.toggle("open");
   });
+});
 
   // Wayfinding: add "active" class based on current page
   const currentPage = location.pathname.split("/").pop();
