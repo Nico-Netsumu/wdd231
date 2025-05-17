@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Sunrise Coffee",
+    "address": "123 Main St, YourCity",
+    "phone": "123-456-7890",
+    "website": "https://sunrisecoffee.example.com",
+    "image": "sunrise-coffee.png",
+    "membership": 3
+  },
+  {
+    "name": "Bright Ideas Agency",
+    "address": "456 Oak Ave, YourCity",
+    "phone": "321-654-0987",
+    "website": "https://brightideas.example.com",
+    "image": "bright-ideas.png",
+    "membership": 2
+  }
+  // Add at least 7 total entries
+]
