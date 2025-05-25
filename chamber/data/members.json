@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Timbuktu Bakery",
+    "address": "123 Main St, Timbuktu",
+    "phone": "555-123-4567",
+    "website": "https://timbuktubakery.com",
+    "image": "bakery.png",
+    "membership": 3
+  },
+  {
+    "name": "Desert Tech Solutions",
+    "address": "456 Tech Park, Timbuktu",
+    "phone": "555-987-6543",
+    "website": "https://deserttech.com",
+    "image": "tech.png",
+    "membership": 2
+  },
+  {
+    "name": "Sahara Coffee House",
+    "address": "789 Bean Blvd, Timbuktu",
+    "phone": "555-222-3333",
+    "website": "https://saharacoffee.com",
+    "image": "coffee.png",
+    "membership": 1
+  },
+  {
+    "name": "Oasis Fitness Center",
+    "address": "100 Fit Ave, Timbuktu",
+    "phone": "555-444-5555",
+    "website": "https://oasisfitness.com",
+    "image": "fitness.png",
+    "membership": 2
+  },
+  {
+    "name": "Nomad Travel Agency",
+    "address": "321 Journey Rd, Timbuktu",
+    "phone": "555-666-7777",
+    "website": "https://nomadtravel.com",
+    "image": "travel.png",
+    "membership": 3
+  },
+  {
+    "name": "Camel Courier Services",
+    "address": "654 Delivery Ln, Timbuktu",
+    "phone": "555-888-9999",
+    "website": "https://camelcourier.com",
+    "image": "courier.png",
+    "membership": 1
+  },
+  {
+    "name": "Timbuktu Bookstore",
+    "address": "111 Book St, Timbuktu",
+    "phone": "555-111-2222",
+    "website": "https://timbuktubooks.com",
+    "image": "bookstore.png",
+    "membership": 2
+  }
+]
