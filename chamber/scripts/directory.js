@@ -57,5 +57,48 @@ function getMembershipName(level) {
   }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+  const gridButton = document.getElementById('gridBtn');
+  const listButton = document.getElementById('listBtn');
+  const display = document.getElementById('members');
+
+  fetch('data/members.json')
+    .then(response => response.json())
+    .then(data => {
+      displayMembers(data);
+    });
+
+  function displayMembers(members) {
+    display.innerHTML = '';
+    members.forEach(member => {
+      const card = document.createElement('section');
+      card.classList.add('member-card');
+      card.innerHTML = `
+        <img src="images/${member.image}" alt="${member.name} logo">
+        <h3>${member.name}</h3>
+        <p>${member.address}</p>
+        <p>${member.phone}</p>
+        <a href="${member.website}" target="_blank">${member.website}</a>
+      `;
+      display.appendChild(card);
+    });
+  }
+
+  gridButton.addEventListener('click', () => {
+    display.classList.add('grid');
+    display.classList.remove('list');
+  });
+
+  listButton.addEventListener('click', () => {
+    display.classList.add('list');
+    display.classList.remove('grid');
+  });
+
+  // Footer updates
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('lastModified').textContent = document.lastModified;
+});
+
+
 fetchMembers();
 
