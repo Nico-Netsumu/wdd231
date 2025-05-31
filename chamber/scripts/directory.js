@@ -60,7 +60,7 @@ function getMembershipName(level) {
 document.addEventListener('DOMContentLoaded', () => {
   const gridButton = document.getElementById('gridBtn');
   const listButton = document.getElementById('listBtn');
-  const display = document.getElementById('members');
+  const display = document.getElementById('directory');
 
   fetch('data/members.json')
     .then(response => response.json())
