@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Amazon Rainforest",
+    "location": "South America",
+    "biome": "Tropical Rainforest",
+    "highlight": "Most biodiverse place on Earth",
+    "fact": "Covers over 2 million square miles.",
+    "image": "images/amazon.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Great Barrier Reef",
+    "location": "Australia",
+    "biome": "Marine",
+    "highlight": "World’s largest coral reef",
+    "fact": "Visible from space.",
+    "image": "images/barrier-reef.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sahara Desert",
+    "location": "North Africa",
+    "biome": "Desert",
+    "highlight": "Largest hot desert",
+    "fact": "Covers over 9 million km².",
+    "image": "images/sahara.jpg"
+  }
+]
