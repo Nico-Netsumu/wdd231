@@ -1,26 +1,32 @@
 document.addEventListener("DOMContentLoaded", () => {
   fetch("data/discover.json")
     .then(res => res.json())
-    .then(data => renderCards(data));
+    .then(data => renderCards(data))
+    .catch(err => console.error("JSON Load Error:", err));
 
   handleLastVisit();
 });
 
 function renderCards(locations) {
   const container = document.querySelector(".cards");
+  if (!container) {
+    console.error("Missing .cards container");
+    return;
+  }
+
   locations.forEach(place => {
     const card = document.createElement("div");
     card.classList.add("card");
 
     card.innerHTML = `
-  <h2>${place.name}</h2>
-  <figure>
-    <img src="images/${place.image}" alt="${place.name}" loading="lazy" width="300" height="200">
-  </figure>
-  <address>${place.address}</address>
-  <p>${place.description}</p>
-  <button>Learn More</button>
-;
+      <h2>${place.name}</h2>
+      <figure>
+        <img src="images/${place.image}" alt="${place.name}" loading="lazy" width="300" height="200">
+      </figure>
+      <address>${place.address}</address>
+      <p>${place.description}</p>
+      <button>Learn More</button>
+    `;
 
     container.appendChild(card);
   });
