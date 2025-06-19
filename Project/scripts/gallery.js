@@ -6,7 +6,7 @@ const storageKey = 'natureFavorites';
 
 async function fetchData() {
   try {
-    const response = await fetch('data/nature.json');
+    const response = await fetch('nature.json');
     if (!response.ok) throw new Error('Failed to fetch data');
     const data = await response.json();
     renderCards(data);
