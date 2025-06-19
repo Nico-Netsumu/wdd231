@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Plaza Mayor",
+    "address": "Jirón de la Unión, Lima",
+    "description": "Historic main square surrounded by colonial architecture.",
+    "image": "plaza-mayor.webp"
+  },
+  {
+    "name": "Miraflores Boardwalk",
+    "address": "Malecón, Miraflores",
+    "description": "Ocean views, parks, and art installations.",
+    "image": "miraflores.webp"
+  },
+  {
+    "name": "Parque Kennedy",
+    "address": "Av. Diagonal, Miraflores",
+    "description": "A lively park known for cats, art fairs, and events.",
+    "image": "kennedy.webp"
+  },
+  {
+    "name": "Huaca Pucllana",
+    "address": "Calle General Borgoño, Lima",
+    "description": "Pre-Incan ruins in the middle of the city.",
+    "image": "huaca.webp"
+  },
+  {
+    "name": "Circuito Mágico del Agua",
+    "address": "Parque de la Reserva, Lima",
+    "description": "Water fountain show and light display.",
+    "image": "circuito.webp"
+  },
+  {
+    "name": "Barranco District",
+    "address": "Barranco, Lima",
+    "description": "Artsy district with cafes, murals, and a romantic bridge.",
+    "image": "barranco.webp"
+  },
+  {
+    "name": "Museo Larco",
+    "address": "Av. Bolívar 1515, Pueblo Libre",
+    "description": "Museum of pre-Columbian art in a beautiful mansion.",
+    "image": "museo-larco.webp"
+  },
+  {
+    "name": "Costa Verde",
+    "address": "Beaches below Lima’s cliffs",
+    "description": "Coastal highway with surfing beaches and seafood.",
+    "image": "costa-verde.webp"
+  }
+]
