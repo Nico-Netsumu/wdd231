@@ -20,7 +20,11 @@ function renderCards(locations) {
   <address>${place.address}</address>
   <p>${place.description}</p>
   <button>Learn More</button>
-`;
+;
+
+    container.appendChild(card);
+  });
+}
 
 function handleLastVisit() {
   const msg = document.getElementById("visit-message");
