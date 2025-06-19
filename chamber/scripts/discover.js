@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("../data/discover.json")
+  fetch("data/discover.json")
     .then(res => res.json())
     .then(data => renderCards(data));
 
