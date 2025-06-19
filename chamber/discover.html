@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover Lima - Chamber of Commerce</title>
+  <link rel="stylesheet" href="../styles/normalize.css" />
+  <link rel="stylesheet" href="../styles/small.css" />
+  <link rel="stylesheet" href="../styles/larger.css" />
+  <link rel="stylesheet" href="../styles/discover.css" />
+  <script src="../scripts/navigation.js" defer></script>
+  <script src="../scripts/date.js" defer></script>
+  <script src="../scripts/discover.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="../images/profile.jpeg" alt="Your Name">
+    <span>Nicolás Bobadilla</span>
+  </header>
+
+  <nav>
+    <button id="menu">&#9776;</button>
+    <ul class="navigation">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="discover.html" class="active">Discover</a></li>
+    </ul>
+  </nav>
+
+  <main class="discover-grid">
+    <aside id="visit-message" class="sidebar">Loading message...</aside>
+    <section class="cards">
+      <!-- Cards inserted via JS -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Nicolás Bobadilla, Lima, Peru</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
